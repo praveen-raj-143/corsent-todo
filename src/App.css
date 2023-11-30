@@ -1,0 +1,79 @@
+.App{
+  background-color: rgba(220, 220, 220, 0.404);
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+.title{
+  font-size: 50px;
+  cursor: pointer;
+  width: fit-content;
+  margin: auto;
+}
+.inptbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.inputfeild{
+  width: 400px;
+  height: 40px;
+  border-radius: 25px;
+  padding-left: 25px;
+  font-style: oblique;
+}
+.addbtn{
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 2px;
+  font-style: oblique;
+}
+.addbtn:hover{
+  box-shadow: 4px 4px grey;
+  background-color: black;
+  color: white; 
+}
+.tskbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tsk{
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  font-style: oblique;
+  
+}
+.tsk:hover{
+  box-shadow: 4px 4px grey;
+  background-color: black;
+  color: white;
+}
+.tasklist{
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list{
+  cursor: pointer;
+  border: 2px;
+  padding-top: 10px;
+  font-size: larger;
+}
+.task:hover{
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  /* border-left: 2px solid black; */
+  border-radius: 15px;
+  padding-left: 10px;
+}
